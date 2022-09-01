@@ -1,0 +1,61 @@
+body{
+    background: hsl(186,29%,59%);
+    background-image: linear-gradient(90deg, hsl(60,100%,92%), hsl(69,83%,85%), hsl(85,65%,81%), hsl(136,43%,76%), hsl(171,44%,62%), hsl(186,50%,51%), hsl(195,65%,45%), hsl(205,69%,41%), hsl(219,64%,38%), hsl(228,64%,31%), hsl(228,64%,31%));
+}
+form{
+    display: flex;
+    width: 100vh;
+    height: 60vh;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+    background: white;
+}
+input{
+    margin-right: 20px;
+    height: 20px;
+    width: 40vh;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(204, 199, 199);
+    outline: none;
+}
+input:focus{
+   border-color: rgb(51, 153, 73);
+}
+.tittle{
+    margin-top: 15px;
+    background: #90958a;
+    background-image: linear-gradient(90deg, #6e40aa, #be3caf, #fe4b83, #ff7747, #e3b62f, #b0ef5a, #53f666, #1edfa2, #23acd8, #4c6fdc, #4c6fdc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.Email-wabsite{
+    display: flex;
+    flex-direction: row;
+    
+}
+.write{
+    display: flex;
+    flex-direction: column;
+}
+.write-submit input{
+    width: 83vh;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    width: 20vh;
+    color: white;
+    background: hsl(186,29%,59%);
+    background-image: linear-gradient(90deg, hsl(60,100%,92%), hsl(69,83%,85%), hsl(85,65%,81%), hsl(136,43%,76%), hsl(171,44%,62%), hsl(186,50%,51%), hsl(195,65%,45%), hsl(205,69%,41%), hsl(219,64%,38%), hsl(228,64%,31%), hsl(228,64%,31%));
+}
+   
